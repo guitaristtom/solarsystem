@@ -1,0 +1,13 @@
+# Global Settings for App
+
+# Logging
+logger:
+    echo: false # Echo log messages when true
+    app:
+        name: 'App'
+        level: 'DEBUG'
+        streamHandler: '/log/app.log'
+    import:
+        name: 'Import'
+        level: 'DEBUG'
+        streamHandler: '/log/import.log'

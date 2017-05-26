@@ -1,0 +1,3 @@
+solarsystem.import:
+    class: SolarSystem\Import
+    args: [import.logger, db]

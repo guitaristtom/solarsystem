@@ -1,0 +1,25 @@
+{
+    "name": "solar system",
+    "description": "'Fancy' web front end for CLI programs such as lm-sensors",
+    "require": {
+        "monolog/monolog": "^1.22",
+        "pimple/pimple": "3.0.2",
+        "psr/log": "^1.0",
+        "ramsey/uuid": "^2.9",
+        "symfony/yaml": "2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SolarSystem\\": "src/SolarSystem"
+        }
+    },
+    "authors": [
+        {
+            "name": "guitaristtom",
+            "email": "guitaristtom@users.noreply.github.com"
+        }
+    ]
+}

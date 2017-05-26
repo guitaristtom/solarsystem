@@ -64,10 +64,8 @@ class Import
             $results = $this->importTemperature($post);
             $this->db->commit();
 
-            $this->logger->info("Temp Update for $post->uuid's $post->chip_name");
-            $this->logger->info("Temp$post->temp_number | Input: $post->temp_input");
-            $this->logger->info("Temp$post->temp_number | Max: $post->temp_max");
-            $this->logger->info("Temp$post->temp_number | Crit: $post->temp_crit");
+            $this->logger->info("Temp Update for $post->uuid's $post->chip_name Temp$post->temp_number");
+
             return true;
 
         } catch (Exception $exception) {
